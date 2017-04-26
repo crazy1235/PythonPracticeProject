@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 print ('hello   python!!!')
 
 # 注释
@@ -68,3 +67,17 @@ print not False
 
 print ~True
 print ~False
+
+# python 把0、''、None看作False，其他数值和非空字符串看成True
+print True and 'True = T' or 'T= False'  # True = T
+
+# and or 的一条重要法则 -- 短路计算
+print '短路计算法则: '
+print '1. 在计算a and b 时，如果a是False，则结果必定位False，因此返回a；如果a是True，则结果取决于b，因此返回b。'
+print '2. 在计算a or b时，如果a是True，则结果必定是True，因此返回a；如果a是False，则结果取决于b，因此返回b。'
+
+# exam
+a = 'python'
+print 'hello,', a or 'world'
+b = ''
+print 'hello,', b or 'world'
