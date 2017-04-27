@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 print ('hello   python!!!')
+print('People may hear your words, but they feel your attitude\n' * 5)
 
 # 注释
 print '------------- Unicode字符串 ----------------'
