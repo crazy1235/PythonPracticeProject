@@ -1,0 +1,17 @@
+.
+├── anaconda-ks.cfg
+├── a.txt
+├── cxcc
+│   ├── a.py
+│   ├── a.txt
+│   ├── ez_setup.py
+│   ├── pip-9.0.1
+│   ├── pip-9.0.1.tar.gz
+│   ├── Python-2.7
+│   └── Python-2.7.tgz
+├── devstack
+│   └── local.yaml
+├── install.log
+└── install.log.syslog
+
+5 directories, 9 files
