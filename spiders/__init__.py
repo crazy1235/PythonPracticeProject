@@ -3,8 +3,6 @@ import urllib2
 import cookielib
 
 url = 'http://blog.csdn.net/crazy1235'
-print url
-url = "http://www.baidu.com"
 
 # print '方式1'
 #
