@@ -23,6 +23,9 @@ confusion[1] = 1
 confusion[1.0] = 2
 confusion[1.1] = 3
 confusion['1'] = 4
-
+confusion[01] = 5
+confusion[01.00] = 6
+confusion[1 + 2] = 7
+confusion[-0.0] = 8
+confusion[0] = 9
 print confusion
-
